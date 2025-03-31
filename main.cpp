@@ -23,7 +23,7 @@ public:
         if (archivo.is_open()) {
             archivo << nombre << "," << edad << "," << correo << endl;
             archivo.close();
-            cout << "Miembro guardado con éxito.\n";
+            cout << "Miembro guardado con exito.\n";
         }
         else {
             cout << "Error al abrir el archivo.\n";
@@ -126,7 +126,7 @@ int main() {
         cout << "3. Actualizar miembro\n";
         cout << "4. Eliminar miembro\n";
         cout << "5. Salir\n";
-        cout << "Seleccione una opción: ";
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
         cin.ignore();
 
@@ -159,7 +159,7 @@ int main() {
             cout << "Saliendo del programa...\n";
             break;
         default:
-            cout << "Opción inválida.\n";
+            cout << "Opcion invalida.\n";
         }
 
     } while (opcion != 5);
