@@ -120,7 +120,7 @@ int main() {
     int edad;
 
     do {
-        cout << "\n---- Menú del Club ----\n";
+        cout << "\n---- Menu del Club ----\n";
         cout << "1. Agregar miembro\n";
         cout << "2. Mostrar miembros\n";
         cout << "3. Actualizar miembro\n";
